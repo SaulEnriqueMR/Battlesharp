@@ -1,0 +1,16 @@
+﻿<Window x:Class="Battlesharp.MenuPrincipal"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Battlesharp"
+        mc:Ignorable="d"
+        Title="Battlesharp" Height="350" Width="350"
+        Closing="Window_Closing">
+    <Grid>
+        <TextBlock x:Name="txtblockJugar" Text="Jugar" HorizontalAlignment="Left" Margin="133,121,0,0" VerticalAlignment="Top" Width="72" Cursor="Hand" Height="21" PreviewMouseDown="txtblockJugar_MouseDoubleClick" TextAlignment="Center"/>
+        <TextBlock x:Name="txtblockPuntuaciones" Text="Puntuaciones más altas" HorizontalAlignment="Left" Margin="98,189,0,0" VerticalAlignment="Top" Width="140" Cursor="Hand" PreviewMouseDown="txtblockPuntuaciones_MouseDoubleClick" TextAlignment="Center" Height="25"/>
+        <TextBlock x:Name="txtblockSalir" Text="Salir" HorizontalAlignment="Left" Margin="280,59,0,0" VerticalAlignment="Top" Width="40" Cursor="Hand" PreviewMouseDown="txtblockSalir_MouseDoubleClick" TextAlignment="Right"/>
+        <TextBlock x:Name="txtblUsuario" Text="Usuario" HorizontalAlignment="Left" Margin="145,20,0,0" VerticalAlignment="Top" Width="175" TextAlignment="Right"/>
+    </Grid>
+</Window>

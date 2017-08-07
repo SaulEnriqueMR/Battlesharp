@@ -1,0 +1,27 @@
+﻿<Window x:Class="Battlesharp.Puntuaciones"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Battlesharp"
+        mc:Ignorable="d"
+        Title="Puntuaciones más altas" Height="350" Width="350">
+    <Grid>
+        <ListBox x:Name="lbPuntuaciones" HorizontalAlignment="Left" Height="245" Margin="35,50,0,0" VerticalAlignment="Top" Width="280" ItemsSource="{Binding}" HorizontalContentAlignment="Stretch">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Grid.Column="0"  Text="{Binding Item1}"/>
+                        <TextBlock Grid.Column="1"  Text="{Binding Item2}"/>
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <TextBlock x:Name="txtblUsuario" Text="Usuario" HorizontalAlignment="Left" Margin="35,19,0,0" VerticalAlignment="Top" Width="150"/>
+        <TextBlock x:Name="txtblPuntos" Text="Puntos" HorizontalAlignment="Left" Margin="185,19,0,0" VerticalAlignment="Top" Width="130"/>
+    </Grid>
+</Window>

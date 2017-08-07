@@ -1,0 +1,17 @@
+﻿https://www.youtube.com/watch?v=SD3yVqpu4e4 - ¿Por qué WPF?
+https://dev.mysql.com/doc/visual-studio/en/visual-studio-making-a-connection.html - Hacer una conexión de MySQL en visual studio
+https://dev.mysql.com/doc/connector-net/en/connector-net-tutorials-entity-framework-winform-data-source.html - crear la conexión de MySQL al Entity framework
+http://www.codeproject.com/Tips/485182/Create-a-local-server-in-Csharp - Crear un servior local en C#
+https://msdn.microsoft.com/en-us/library/system.net.sockets.tcpclient.aspx
+https://msdn.microsoft.com/en-us/library/system.net.sockets.tcplistener.aspx?cs-save-lang=1&cs-lang=csharp#code-snippet-2
+https://hectorperez.wordpress.com/tag/contenedores-en-wpf/
+http://smarrerof.blogspot.mx/2012/04/4-como-obtener-el-hash-sha256-en-c.html
+
+El siguiente fragmento contiene la solución para el error de la base de datos:
+'Strong typing exception: the value for column 'isprimarykey' in table 'tabledetails' is dbnull'"
+
+use battlesharp;
+set global optimizer_switch='derived_merge=off';
+set optimizer_switch='derived_merge=off';
+
+http://stackoverflow.com/questions/1204365/what-is-the-difference-between-a-wcf-service-application-and-a-wcf-service-libra - Diferencia entre un wcf service application y un wcf service library

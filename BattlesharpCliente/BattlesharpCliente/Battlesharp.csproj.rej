@@ -1,0 +1,9 @@
+diff a/Battlesharp/Battlesharp/Battlesharp.csproj b/Battlesharp/Battlesharp/Battlesharp.csproj	(rejected hunks)
+@@ -142,6 +142,7 @@
+     <None Include="images\FichaBarco.jpg" />
+   </ItemGroup>
+   <ItemGroup>
++<<<<<<< HEAD
+     <Resource Include="images\battlesharp.png" />
+   </ItemGroup>
+   <ItemGroup>

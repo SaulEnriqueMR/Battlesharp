@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Battlesharp" xml:space="preserve">
+    <value>Battlesharp</value>
+  </data>
+  <data name="CamposVacios" xml:space="preserve">
+    <value>Hay campos vacíos</value>
+  </data>
+  <data name="Cancelar" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="ConfirmacionContrasena" xml:space="preserve">
+    <value>Confirmación de contraseña:</value>
+  </data>
+  <data name="Contrasena" xml:space="preserve">
+    <value>Contraseña:</value>
+  </data>
+  <data name="ContrasenaIncorrecta" xml:space="preserve">
+    <value>La contraseña que ingresaste es incorrecta.</value>
+  </data>
+  <data name="ContrasenasNoIguales" xml:space="preserve">
+    <value>Las contraseñas deben coincidir</value>
+  </data>
+  <data name="InformacionValida" xml:space="preserve">
+    <value>Información valida</value>
+  </data>
+  <data name="IniciarSesion" xml:space="preserve">
+    <value>Iniciar sesión</value>
+  </data>
+  <data name="JugadoresEnLinea" xml:space="preserve">
+    <value>Jugadores en línea</value>
+  </data>
+  <data name="JugadorRegistrado" xml:space="preserve">
+    <value>Jugador registrado exitosamente.</value>
+  </data>
+  <data name="Jugar" xml:space="preserve">
+    <value>Jugar</value>
+  </data>
+  <data name="MenuPrincipal" xml:space="preserve">
+    <value>Menú principal</value>
+  </data>
+  <data name="Nombre" xml:space="preserve">
+    <value>Nombre:</value>
+  </data>
+  <data name="ProblemaConexion" xml:space="preserve">
+    <value>Hubo un problema mientras se intentaba conectar con el servidor</value>
+  </data>
+  <data name="Puntos" xml:space="preserve">
+    <value>Puntos:</value>
+  </data>
+  <data name="PuntuacionesAltas" xml:space="preserve">
+    <value>Puntuaciones más altas</value>
+  </data>
+  <data name="PuntuacionesMasAltas" xml:space="preserve">
+    <value>Puntuaciones más altas</value>
+  </data>
+  <data name="Registrarse" xml:space="preserve">
+    <value>Registrarse</value>
+  </data>
+  <data name="Salir" xml:space="preserve">
+    <value>Salir</value>
+  </data>
+  <data name="ServidorNoResponde" xml:space="preserve">
+    <value>No hay respuesta por parte del servidor, tiempo de espera agotado.</value>
+  </data>
+  <data name="Usuario" xml:space="preserve">
+    <value>Usuario:</value>
+  </data>
+  <data name="UsuarioEnUso" xml:space="preserve">
+    <value>Ese usuario ya está en uso, intenta con otro.</value>
+  </data>
+  <data name="UsuarioNoExiste" xml:space="preserve">
+    <value>El usuario que ingresaste no coincide con ningún jugador. Registrate para ser un jugador.</value>
+  </data>
+  <data name="Fijar" xml:space="preserve">
+    <value>Fijar</value>
+  </data>
+  <data name="DisparoRepetido" xml:space="preserve">
+    <value>No se pudo efectuar el disparo porque ya se había hecho previamente.</value>
+  </data>
+  <data name="ElTableroEstaFijado" xml:space="preserve">
+    <value>Ya no se puede poner / quitar la pieza porque el tablero está fijado.</value>
+  </data>
+  <data name="NoHayCasillas" xml:space="preserve">
+    <value>No se pueden poner más casillas</value>
+  </data>
+  <data name="QuedanPiezas" xml:space="preserve">
+    <value>Aún quedan piezas por colocar</value>
+  </data>
+  <data name="Ganaste" xml:space="preserve">
+    <value>Ganaste</value>
+  </data>
+  <data name="ElJugador" xml:space="preserve">
+    <value>El jugador </value>
+  </data>
+  <data name="Invitacion" xml:space="preserve">
+    <value>Invitación</value>
+  </data>
+  <data name="TeHaInvitado" xml:space="preserve">
+    <value> te ha invitado.</value>
+  </data>
+  <data name="UsuarioRechazoPartida" xml:space="preserve">
+    <value>El usuario rechazó la invitación, escoge otro.</value>
+  </data>
+  <data name="InvitaAAlguien" xml:space="preserve">
+    <value>Invita a alguien a jugar y presiona &lt;Invitar&gt;</value>
+  </data>
+  <data name="Invitar" xml:space="preserve">
+    <value>Invitar</value>
+  </data>
+  <data name="NoPuedesInvitarte" xml:space="preserve">
+    <value>No puedes invitarte a ti mismo.</value>
+  </data>
+  <data name="PonPiezas" xml:space="preserve">
+    <value>Con el botón izquiero del mouse coloca 7 piezas y pulsa &lt;Fijar&gt; para continuar. Si quieres quitar una pieza solo vuelvela a seleccinonar.</value>
+  </data>
+  <data name="SeleccionaUsuario" xml:space="preserve">
+    <value>Selecciona un usuario para invitar.</value>
+  </data>
+  <data name="UsuarioListo" xml:space="preserve">
+    <value>El otro usuario está listo, esperandote.</value>
+  </data>
+  <data name="UsuarioOcupado" xml:space="preserve">
+    <value>El usuario está en partida o contestando otra invitación.</value>
+  </data>
+  <data name="Perdiste" xml:space="preserve">
+    <value>Perdiste</value>
+  </data>
+  <data name="NoEsTurno" xml:space="preserve">
+    <value>Aún no es tu turno</value>
+  </data>
+  <data name="UsuarioNoListo" xml:space="preserve">
+    <value>El usuario aún no fija su tablero.</value>
+  </data>
+  <data name="NoSePuedoRegistrar" xml:space="preserve">
+    <value>No se pudo registrar la puntuación.</value>
+  </data>
+  <data name="Diviertete" xml:space="preserve">
+    <value>Diviertete</value>
+  </data>
+  <data name="PuntuacionRegistrada" xml:space="preserve">
+    <value>PuntuacionRegistrada</value>
+  </data>
+</root>

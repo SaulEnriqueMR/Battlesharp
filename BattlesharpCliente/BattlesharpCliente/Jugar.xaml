@@ -1,0 +1,112 @@
+﻿<Window x:Class="Battlesharp.Jugar"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Battlesharp"
+        mc:Ignorable="d"
+        Title="Jugar" Height="700" Width="1300" Margin="0,0,0,0" Closing="Window_Closing">
+
+    <Grid HorizontalAlignment="Center" Margin="0,0,0,0" Width="1300">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="14*"/>
+            <ColumnDefinition Width="25*"/>
+            <ColumnDefinition Width="26*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Column="1" Name="gdTablero" HorizontalAlignment="Left" Height="400" Margin="40,140,0,0" ShowGridLines="True" VerticalAlignment="Top" Width="400">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button Name="A1" Background="LightBlue" Grid.Column="0" Grid.Row="0" Click="A1_Click"/>
+            <Button Name="A2" Background="LightBlue" Grid.Column="1" Grid.Row="0" Click="A2_Click"/>
+            <Button Name="A3" Background="LightBlue" Grid.Column="2" Grid.Row="0" Click="A3_Click"/>
+            <Button Name="A4" Background="LightBlue" Grid.Column="3" Grid.Row="0" Click="A4_Click"/>
+            <Button Name="A5" Background="LightBlue" Grid.Column="4" Grid.Row="0" Click="A5_Click"/>
+            <Button Name="B1" Background="LightBlue" Grid.Column="0" Grid.Row="1" Click="B1_Click"/>
+            <Button Name="B2" Background="LightBlue" Grid.Column="1" Grid.Row="1" Click="B2_Click"/>
+            <Button Name="B3" Background="LightBlue" Grid.Column="2" Grid.Row="1" Click="B3_Click"/>
+            <Button Name="B4" Background="LightBlue" Grid.Column="3" Grid.Row="1" Click="B4_Click"/>
+            <Button Name="B5" Background="LightBlue" Grid.Column="4" Grid.Row="1" Click="B5_Click"/>
+            <Button Name="C1" Background="LightBlue" Grid.Column="0" Grid.Row="2" Click="C1_Click"/>
+            <Button Name="C2" Background="LightBlue" Grid.Column="1" Grid.Row="2" Click="C2_Click"/>
+            <Button Name="C3" Background="LightBlue" Grid.Column="2" Grid.Row="2" Click="C3_Click"/>
+            <Button Name="C4" Background="LightBlue" Grid.Column="3" Grid.Row="2" Click="C4_Click"/>
+            <Button Name="C5" Background="LightBlue" Grid.Column="4" Grid.Row="2" Click="C5_Click"/>
+            <Button Name="D1" Background="LightBlue" Grid.Column="0" Grid.Row="3" Click="D1_Click"/>
+            <Button Name="D2" Background="LightBlue" Grid.Column="1" Grid.Row="3" Click="D2_Click"/>
+            <Button Name="D3" Background="LightBlue" Grid.Column="2" Grid.Row="3" Click="D3_Click"/>
+            <Button Name="D4" Background="LightBlue" Grid.Column="3" Grid.Row="3" Click="D4_Click"/>
+            <Button Name="D5" Background="LightBlue" Grid.Column="4" Grid.Row="3" Click="D5_Click"/>
+            <Button Name="E1" Background="LightBlue" Grid.Column="0" Grid.Row="4" Click="E1_Click"/>
+            <Button Name="E2" Background="LightBlue" Grid.Column="1" Grid.Row="4" Click="E2_Click"/>
+            <Button Name="E3" Background="LightBlue" Grid.Column="2" Grid.Row="4" Click="E3_Click"/>
+            <Button Name="E4" Background="LightBlue" Grid.Column="3" Grid.Row="4" Click="E4_Click"/>
+            <Button Name="E5" Background="LightBlue" Grid.Column="4" Grid.Row="4" Click="E5_Click"/>
+        </Grid>
+
+        <Grid Grid.Column="2" Name="gdTableroEnemigo" HorizontalAlignment="Left" Height="400" Margin="60,140,0,0" ShowGridLines="True" VerticalAlignment="Top" Width="400">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button Background="LightBlue" Click="A1Enemigo_Click" Grid.Column="0" Grid.Row="0" Name="A1Enemigo"/>
+            <Button Background="LightBlue" Click="A2Enemigo_Click" Grid.Column="1" Grid.Row="0" Name="A2Enemigo"/>
+            <Button Background="LightBlue" Click="A3Enemigo_Click" Grid.Column="2" Grid.Row="0" Name="A3Enemigo"/>
+            <Button Background="LightBlue" Click="A4Enemigo_Click" Grid.Column="3" Grid.Row="0" Name="A4Enemigo"/>
+            <Button Background="LightBlue" Click="A5Enemigo_Click" Grid.Column="4" Grid.Row="0" Name="A5Enemigo"/>
+            <Button Background="LightBlue" Click="B1Enemigo_Click" Grid.Column="0" Grid.Row="1" Name="B1Enemigo"/>
+            <Button Background="LightBlue" Click="B2Enemigo_Click" Grid.Column="1" Grid.Row="1" Name="B2Enemigo"/>
+            <Button Background="LightBlue" Click="B3Enemigo_Click" Grid.Column="2" Grid.Row="1" Name="B3Enemigo"/>
+            <Button Background="LightBlue" Click="B4Enemigo_Click" Grid.Column="3" Grid.Row="1" Name="B4Enemigo"/>
+            <Button Background="LightBlue" Click="B5Enemigo_Click" Grid.Column="4" Grid.Row="1" Name="B5Enemigo"/>
+            <Button Background="LightBlue" Click="C1Enemigo_Click" Grid.Column="0" Grid.Row="2" Name="C1Enemigo"/>
+            <Button Background="LightBlue" Click="C2Enemigo_Click" Grid.Column="1" Grid.Row="2" Name="C2Enemigo"/>
+            <Button Background="LightBlue" Click="C3Enemigo_Click" Grid.Column="2" Grid.Row="2" Name="C3Enemigo"/>
+            <Button Background="LightBlue" Click="C4Enemigo_Click" Grid.Column="3" Grid.Row="2" Name="C4Enemigo"/>
+            <Button Background="LightBlue" Click="C5Enemigo_Click" Grid.Column="4" Grid.Row="2" Name="C5Enemigo"/>
+            <Button Background="LightBlue" Click="D1Enemigo_Click" Grid.Column="0" Grid.Row="3" Name="D1Enemigo"/>
+            <Button Background="LightBlue" Click="D2Enemigo_Click" Grid.Column="1" Grid.Row="3" Name="D2Enemigo"/>
+            <Button Background="LightBlue" Click="D3Enemigo_Click" Grid.Column="2" Grid.Row="3" Name="D3Enemigo"/>
+            <Button Background="LightBlue" Click="D4Enemigo_Click" Grid.Column="3" Grid.Row="3" Name="D4Enemigo"/>
+            <Button Background="LightBlue" Click="D5Enemigo_Click" Grid.Column="4" Grid.Row="3" Name="D5Enemigo"/>
+            <Button Background="LightBlue" Click="E1Enemigo_Click" Grid.Column="0" Grid.Row="4" Name="E1Enemigo"/>
+            <Button Background="LightBlue" Click="E2Enemigo_Click" Grid.Column="1" Grid.Row="4" Name="E2Enemigo"/>
+            <Button Background="LightBlue" Click="E3Enemigo_Click" Grid.Column="2" Grid.Row="4" Name="E3Enemigo"/>
+            <Button Background="LightBlue" Click="E4Enemigo_Click" Grid.Column="3" Grid.Row="4" Name="E4Enemigo"/>
+            <Button Background="LightBlue" Click="E5Enemigo_Click" Grid.Column="4" Grid.Row="4" Name="E5Enemigo"/>
+        </Grid>
+
+        <TextBlock x:Name="txtblockTu" Grid.Column="1" HorizontalAlignment="Left" Height="40" TextAlignment="Center" FontSize="15" Margin="185,23,0,0" TextWrapping="Wrap" Text="Tu" VerticalAlignment="Top" Width="100"/>
+        <TextBlock x:Name="txtblockEnemigo" Grid.Column="2" HorizontalAlignment="Left" Height="40" TextAlignment="Center" FontSize="15" Margin="220,45,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="100"/>
+        <Button x:Name="btnFijar" Click="btnFijar_Click" Content="Fijar" Grid.Column="1" HorizontalAlignment="Left" Margin="360,610,0,0" VerticalAlignment="Top" Width="80" Height="20"/>
+        <ListBox x:Name="lbxJugadoresActivos" HorizontalAlignment="Left" Height="400" Margin="40,140,0,0" VerticalAlignment="Top" Width="200" ItemsSource="{Binding}"/>
+        <Button x:Name="btnActualizar" Content="Actualizar" Click="btnActualizar_Click" HorizontalAlignment="Left" Margin="165,90,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="btnInvitar" Click="btnInvitar_Click" Content="Invitar" HorizontalAlignment="Left" Margin="165,610,0,0" VerticalAlignment="Top" Width="75"/>
+        <TextBlock x:Name="txtblIndicacion" Grid.Column="1" HorizontalAlignment="Left" Margin="40,68,0,0" TextWrapping="Wrap" Text="Indicación" TextAlignment="Center" VerticalAlignment="Top" Width="400" Height="57" FontSize="14" FontWeight="Bold"/>
+        <TextBlock x:Name="txtblEstadoDelOtroUsuario" Text="Esperando" Grid.Column="2" TextAlignment="Center" HorizontalAlignment="Left" Margin="145,610,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="235"/>
+
+
+    </Grid>
+</Window>
